@@ -1,0 +1,21 @@
+{
+  "name": "safqa",
+  "version": "1.0.0",
+  "description": "منصة صفقة للإعلانات المبوبة",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0",
+    "formidable": "^3.5.4",
+    "sqlite3": "^6.0.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
